@@ -15,16 +15,16 @@
 </head>
 
 <body>
-    <header>
-        <div>
-            <img src="images/logo.png" alt="Rafitng logo">
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About Us</a>
-                <a href="trips.html">Trips</a>
-                <a href="contact.html">Contact Us</a>
+    <header class="nav-grid">
+        <!-- <div> -->
+            <img class="raft" src="images/logo.png" alt="Rafitng logo">
+            <nav class="top-nav">
+                <a class="nav-item" href="index.html">Home</a>
+                <a class="nav-item" href="about.html">About Us</a>
+                <a class="nav-item" href="trips.html">Trips</a>
+                <a class="nav-item" href="contact.html">Contact Us</a>
             </nav>
-        </div>
+        <!-- </div> -->
     </header>
     <main>
         <div class="hero">
@@ -40,14 +40,23 @@
                 </p>
             </article>
         </div>
-        <section>
+        <section class="history">
             <h2>History</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vulputate commodo lectus, ac blandit elit
-                tincidunt id.
-                Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.
-            </p>
+            <div class="content">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vulputate commodo lectus, ac blandit elit
+                    tincidunt id.
+                    Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.
+                </p>
+                <img src="images/rafting-1.jpg" alt="Rafting Image 1" width="200">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vulputate commodo lectus, ac blandit elit
+                    tincidunt id.
+                    Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.
+                </p>
+            </div>
         </section>
+ 
 
         <section>
             <h2>Adventure Awaits You!</h2>
@@ -65,14 +74,13 @@
     <footer>
         <p>&copy; 2024 White Water Rafting Adventures. Designed by Andrew Awadike</p>
         <nav class="sociallinks">
-            <a href="https://facebook.com" target="_blank">
-                <img src="images/facebook_logo.png"
-                    alt="Facebook Icon" width="20">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+                <img src="images/facebook_logo.png" alt="Facebook Icon" width="20">
             </a>
-            <a href="https://twitter.com" target="_blank">
+            <a href="https://twitter.com" target="_blank" aria-label="Twitter">
                 <img src="images/twitter_logo.png" alt="Twitter Icon" width="20">
             </a>
-            <a href="https://instagram.com" target="_blank">
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram">
                 <img src="images/instagram_icon.png" alt="Instagram Icon" width="20">
             </a>
         </nav>
